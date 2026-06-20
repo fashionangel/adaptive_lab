@@ -620,7 +620,7 @@ a{
     .cta{
         flex-direction: column-reverse;
         gap: 0;
-        padding-bottom: 0;
+        padding-bottom: 30px; 
     }
 
     .cta_image{
