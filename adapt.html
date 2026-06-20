@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="picture/im.png" type="image/jpg">
+</head>
+<body>
+    <header>
+        <div class="container header_container">
+            <div class="header_logo_group header_first_line">
+                <img src="picture/circle_1.svg" alt="лого">
+                <p class="logo_text">simple</p>
+                <img src="picture/oval_1.svg" alt="лого">
+                <img src="picture/circle_last.svg" alt="лого">
+            </div>
+            <div class="header_nav">
+                <a href="#production" class="main_text header_nav_link header_nav_link_margin">Продукция</a>
+                <a href="#material" class="main_text header_nav_link header_nav_link_margin">Материалы</a>
+                <a href="#about" class="main_text header_nav_link header_nav_link_margin">О нас</a>
+                <a href="#contact" class="main_text header_nav_link">Контакты</a>
+            </div>
+            <div class="header_actions header_first_line">
+                <img class="header_mobile_trigger" src="picture/more.svg" alt="больше">
+                <img src="picture/search.svg" alt="Поиск">
+                <img src="picture/login.svg" alt="Вход">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container hero">
+                <div>
+                    <h1 class="main_text hero_title">Простые вещи. Из бумаги</h1>
+                    <p class="main_text hero_desc">
+                        Бума́га (предположительно от итал. bombagia, 
+                        первоисточником же считается иранский) — 
+                        волокнистый материал с минеральными 
+                        добавками. 
+                    </p>
+                    <!-- Кнопка «Каталог» теперь перенаправляет к карточкам товаров -->
+                    <button class="main_text hero_button" onclick="location.href='#production'">Каталог</button>
+                </div>
+                <img class="hero_image" src="picture/truba.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="features_section">
+            <div class="container features">
+                <div class="features_list">
+                    <div class="feature_item">
+                        <img class="feature_icon" src="picture/buissnes_v2.svg" alt="result">
+                        <div class="feature_text_wrapper">
+                            <h4 class="main_text feature_title">V. 1</h4>
+                            <p class="main_text feature_desc">Результат вашего обучения</p>
+                        </div>
+                    </div>
+                    <div class="feature_item">
+                        <img class="feature_icon" src="picture/buissnes_v6.svg" alt="result">
+                        <div class="feature_text_wrapper">
+                            <h4 class="main_text feature_title">V. 2</h4>
+                            <p class="main_text feature_desc">Результат вашего обучения</p>
+                        </div>
+                    </div>
+                    <div class="feature_item">
+                        <img class="feature_icon" src="picture/buissnes_v5.svg" alt="result">
+                        <div class="feature_text_wrapper">
+                            <h4 class="main_text feature_title">V. 3</h4>
+                            <p class="main_text feature_desc">Результат вашего обучения</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase">
+                    <img class="showcase_image" src="picture/box.svg" alt="коробка">
+                    <div class="showcase_content">
+                        <h2 class="main_text showcase_heading">Максимальная белизна</h2>
+                        <div>
+                            <p class="main_text showcase_text">
+                                Для повышения белизны, гладкости 
+                                и мягкости в состав бумажной массы 
+                                вводят белые минеральные вещества: 
+                                мел, тальк, каолин и др. Эта операция 
+                                называется наполнением.
+                            </p>
+                            <p class="main_text showcase_text">
+                                Отлив бумажного листа осуществляют 
+                                на бумагоделательной машине, 
+                                важнейшей частью которой является 
+                                непрерывно движущаяся (как 
+                                транспортер) металлическая или 
+                                капроновая сетка.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="production" class="products_section">
+            <div class="container products">
+                <div class="products_left">
+                    <div class="product_card">
+                        <img src="picture/three.svg" alt="три пакета">
+                        <h3 class="main_text product_title">Упаковка</h3>
+                        <p class="main_text product_meta">Тираж: от 50 штук</p>
+                        <p class="main_text product_desc">
+                            Сделано из крафт-бумаги или 
+                            плотного картона. Упаковки 
+                            имеют различные формы 
+                            и расцветки, изготовим 
+                            форму под заказ.
+                        </p>
+                        <a href="#" class="main_text">Подробнее <img src="picture/arrow.svg" alt="podrobnee"></a>
+                    </div>
+                    <div class="product_card">
+                        <img src="picture/pak.jpg" alt="Пакеты">
+                        <h3 class="main_text product_title">Пакеты</h3>
+                        <p class="main_text product_meta">Тираж: от 200 штук</p>
+                        <p class="main_text product_desc">
+                            С прямоугольным дном. 
+                            От 10 см до 60 см по высоте. 
+                            Материалы: картон, 
+                            крафт-бумага. Различные 
+                            расцветки и дизайн.
+                        </p>
+                        <a href="#" class="main_text">Подробнее <img src="picture/arrow.svg" alt="podrobnee"></a>
+                    </div>
+                </div>
+                <div class="products_right">
+                    <div class="product_card">
+                        <img src="picture/keys.jpg" alt="кейсы">
+                        <h3 class="main_text product_title">Кейсы</h3>
+                        <p class="main_text product_meta">Тираж: от 30 штук</p>
+                        <p class="main_text product_desc">
+                            Подойдет для документов 
+                            и других бумаг. Различные 
+                            расцветки, размеры 
+                            и плотность. Материал: 
+                            прессованная бумага.
+                        </p>
+                        <a href="#" class="main_text">Подробнее <img src="picture/arrow.svg" alt="podrobnee"></a>
+                    </div>
+                    <div class="product_card">
+                        <img src="picture/pack.jpg" alt="упаковки">
+                        <h3 class="main_text product_title">Другия изделия</h3>
+                        <p class="main_text product_meta">Тираж: от 100 штук</p>
+                        <p class="main_text product_desc">
+                            Нестандартные упаковки, 
+                            кейсы и другие изделия 
+                            различных размеров 
+                            и конфигураций. Изготовим 
+                            в кратчайшие сроки.
+                        </p>
+                        <a href="#" class="main_text product_link">Подробнее <img src="picture/arrow.svg" alt="podrobnee"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="material" class="partners_section">
+            <div class="container partners">
+                <img class="partners_logo partners_logo_1" src="picture/hahnemuhle.svg" alt="партнер">
+                <img class="partners_logo partners_logo_2" src="picture/canson.svg" alt="партнер">
+                <img class="partners_logo partners_logo_3" src="picture/royal_talens.svg" alt="партнер">
+                <img class="partners_logo partners_logo_4" src="picture/fabriano.svg" alt="партнер"> 
+            </div>
+        </section>
+
+        <section class="cta_section">
+            <div class="container cta">
+                <div class="cta_content">
+                    <h3 class="main_text cta_title">Simple скетчбук</h3>
+                    <p class="main_text cta_text">
+                        80 листов, твердая обложка, бумага 
+                        Fabriano 200 г/м2. Подойдет и для 
+                        графики и для акварели. Для самых 
+                        смелых творческих замыслов!
+                    </p>
+                    <button class="main_text cta_button" onclick="location.href='https://belarusbank.by/fizicheskim_licam/kredit/'"> Купить </button>
+                </div>
+                <img class="cta_image" src="picture/book.jpg" alt="открытая книга">
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="footer_top">
+            <div class="container footer_top_inner">
+                <div class="footer_logo">
+                    <img src="picture/circle.svg" alt="часть лого">
+                    <p class="footer_logo_text">simple</p>
+                    <img src="picture/oval.svg" alt="часть лого">
+                    <img src="picture/circle.svg" alt="часть лого">  
+                </div>
+                <div class="footer_social">
+                    <a href="https://x.com/?lang=ru"><img src="picture/twit.svg" alt="твиттер"></a>
+                    <a href="https://www.facebook.com/?locale=ru_RU"><img src="picture/face.svg" alt="фейсбук"></a>
+                    <a href="https://www.instagram.com/"><img src="picture/insta.svg" alt="инста"></a>
+                    <a href="https://www.youtube.com/"><img src="picture/yt.svg" alt="ютуб"></a>
+                </div>
+            </div>
+        </div>
+        <p class="main_text footer_copyright">SIMPLE ® 2021</p>
+    </footer>
+</body>
+</html>
